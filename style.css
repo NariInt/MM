@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+
+}
+.container{
+    max-width: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    transition: 0.5s;
+
+}
+.rolagem{
+    padding: 2px;
+    
+}
+.rolagem .logo img{
+    width: 110px;
+}
+.logo img{
+    width: 130px;
+    transition: 0.5s;
+}
+.logo, .redes{
+    width: 70%;
+}
+.menu{
+    width: 150%;
+}
+.redes{
+    width: 90px;
+}
+
+.redes i{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+.menu nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding-right: 50px;
+    font-size: 15px;
+    
+}
+.divs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.esquerda{
+    width: 40%;
+    height: 100vh;
+    background-image: url(imagens/Instagram\ post\ de\ lembrete\ ousado\ laranja.png);
+    background-size: cover;
+    
+
+}
+.direita{
+    width: 60%;
+    height: 100vh;
+    background-image: url(imagens/team-spirit-2447163_1280.jpg);
+    background-size: cover;
+    
+
+}
+.texto{
+    margin: 50px;
+    letter-spacing: 2px;
+    
+    background-color:(255, 255, 255);
+}
+.texto h1{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+    font-family: sans-serif;
+}
+.texto p{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 100px;
+}
+.main_esquerda{
+    width: 60%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_direita{
+    width: 60%;
+    height: 400px;
+    
+}
+.inside{
+    width: 70%;
+    height: 350px;
+}
+.inside h1{
+    font-size: 30px;
+}
+.inside p{
+    font-size:18px;
+}
+.imagens_div{
+    margin-top: 25px;
+    
+}
+.imagem{
+    float: left;
+    width: 60px;
+    margin-right: 15px;
+}
+.direita2{
+    height: 400;
+    width: 80%;
+    
+    
+}
+.titulo1{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 22px;
+    letter-spacing: 7px;
+    color: black;
+}
+.letra{
+    color: rgb(224, 127, 8);
+}
+.titulo1{
+    background-color: rgba(82, 79, 79, 0.074);
+    height: 180px;
+    align-items: center;
+}
+.section_div1{
+    background-color: rgba(82, 79, 79, 0.074);
+    width: 100%;
+    height: 820px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cima1{
+    background-color: rgb(255, 102, 0);
+    height: 320px;
+    width: 353px;
+    border-radius: 30px;
+    margin: 10px;
+
+}
+.cima2{
+    background-color: rgb(42, 165, 71);
+    height: 470px;
+    width: 353px;
+    border-radius: 30px;
+    margin: 10px;
+    background-image: url(imagens/A-tendencia-de-self-checkout-no-Brasil-scaled\ \(1\).jpg);
+    background-size: cover;
+}
+.baixo1{
+    background-color: rgb(255, 102, 0);
+    height: 320px;
+    width: 353px;
+    border-radius: 30px;
+    margin: 10px;
+}
+.baixo2{
+    background-color: rgb(165, 42, 130);
+    height: 470px;
+    width: 353px;
+    border-radius: 30px;
+    margin: 10px;
+    background-image: url(imagens/camera-seguranca-kit-4-03.jpg);
+    background-size: cover;
+}
+.meio1{
+    background-color: rgb(46, 43, 45);
+    height: 470px;
+    width: 353px;
+    border-radius: 30px;
+    margin: 10px;
+    background-image: url(imagens/Container.jpg);
+    background-size: cover;
+}
+.meio2{
+    background-color: rgb(255, 102, 0);
+    height: 320px;
+    width: 353px;
+    border-radius: 30px;
+    margin: 10px;
+}
+.icone_div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 65px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+.icone_div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 65px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+.icone_div3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 65px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+.facil-uso{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+.facil-uso-p{
+    font-size: 17px;
+    text-align: center;
+    color: white;
+}
+.seguranca{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+.valorizacao{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+.valorizacao-p{
+    font-size: 17px;
+    text-align: center;
+    color: white;
+}
+.seguranca-p{
+    font-size: 17px;
+    text-align: center;
+    color: white;
+}
