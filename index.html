@@ -1,31 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MineMax</title>
-    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Menu Responsivo</title>
 </head>
+
 <body>
     <header id="header">
-        <div class="container">
-            <div class="logo"><img src="imagens/mini (3) (1).png"></div>
-            <div class="menu">
-                <nav>
-                    <a href="#">HOME</a>
-                    <a href="#">QUEM SOMOS</a>
-                    <a href="#">QUERO NO MEU CONDOMÍNIO</a>
-                </nav>
+        <div class="header_rolagem">
+            <nav class="nav-bar">
+                <div class="logo">
+                    <img src="assets/css/imagens/mini (3) (1).png" width="100px" alt="">
+                </div>
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link"> Sobre</a></li>
+                    </ul>
+                </div>
+                <div class="login-button">
+                    <button><a href="#">Entrar</a></button>
+                </div>
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+                </div>
+            </nav>
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                </ul>
+                <div class="login-button">
+                    <button><a href="#">Entrar</a></button>
+                </div>
             </div>
-            <div class="redes">
-                
-                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                
-            </div>            
         </div>
     </header>
     <main>
@@ -55,15 +69,15 @@
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, nam, ex officiis facilis quidem quam iste consequuntur deleniti quasi architecto esse! Sapiente aut ipsam tempore ipsum quidem, blanditiis omnis minus!</p>
                         </div>
                         <div class="imagens_div">
-                            <img class="imagem" src="ícones/24h.png" alt="">
+                            <img class="imagem" src="assets/css/ícones/24h.png" alt="">
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, nam, ex officiis facilis quidem quam iste consequuntur deleniti quasi architecto esse! Sapiente aut ipsam tempore ipsum quidem, blanditiis omnis minus!</p>
                         </div>
                         <div class="imagens_div">
-                            <img class="imagem" src="ícones/a-pagar.png" alt="">
+                            <img class="imagem" src="assets/css/ícones/a-pagar.png" alt="">
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, nam, ex officiis facilis quidem quam iste consequuntur deleniti quasi architecto esse! Sapiente aut ipsam tempore ipsum quidem, blanditiis omnis minus!</p>
                         </div>
                         <div class="imagens_div">
-                            <img class="imagem" src="ícones/18-.png" alt="">
+                            <img class="imagem" src="assets/css/ícones/18-.png" alt="">
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, nam, ex officiis facilis quidem quam iste consequuntur deleniti quasi architecto esse! Sapiente aut ipsam tempore ipsum quidem, blanditiis omnis minus!</p>
                         </div>
                     </div>
@@ -122,7 +136,35 @@
                 <div class="baixo2"></div>      
             </div>
         </section>
+        <br>
+        <section class="formulario">
+            <div class="container_form">
+                <div class="form_img">
+                    <img src="assets/img/store-1919713_1280.png" width="500px">
+                </div>
+                <div class="form_envio">
+                    <div>
+                        
+                    </div>
+                    <div class="form_ctt">
+                        <form action="https://formsubmit.co/irano367@gmail.com" method="POST">
+                            <label for="name">Nome</label>
+                            <input type="text"  name="name"  id="name" required>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required>
+                            <label for="menssage">Menssagem</label>
+                            <textarea name="message" id="message" placeholder="Assunto"></textarea>
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="http://127.0.0.1:5500/Proj.%20mM/menu%20responsivo/index.html">
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <script src="script.js"></script>
+
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>
