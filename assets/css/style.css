@@ -93,7 +93,7 @@ header {
         display: block;
     }
     .mobile-menu-icon button {
-        background-color: #ff5e00e7;
+        background-color: transparent;
         border-radius: 10px;
         border: none;
         cursor: pointer;
@@ -111,6 +111,7 @@ header {
     .mobile-menu .login-button {
         display: block;
         padding: 1rem 2rem;
+        
     }
     .mobile-menu .login-button button {
         width: 100%;
@@ -435,7 +436,7 @@ footer h1{
 
 @media screen and (max-width: 730px) {
     .nav-bar {
-        padding: 1.5rem 4rem;
+        padding: 3rem 4rem;
     }
     .nav-item {
         display: none;
@@ -447,7 +448,7 @@ footer h1{
         display: block;
     }
     .mobile-menu-icon button {
-        background-color: transparent;
+        background-color: rgb(255, 106, 0);
         border: none;
         cursor: pointer;
     }
